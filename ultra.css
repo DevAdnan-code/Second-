@@ -1,0 +1,86 @@
+body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+      }
+      header {
+        background-color: #ffffff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #logo img {
+        width: 180px;
+        height: auto;
+      }
+      #right ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      #right ul li {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+      }
+      #right ul li a {
+        text-decoration: none;
+        color: #141b34;
+      }
+      .inner {
+        margin: 20px 0;
+        white-space: nowrap;
+        align-items: center;
+      }
+
+      .inner h3 {
+        margin-bottom: 5px;
+      }
+
+      .inner small {
+        font-size: 80%;
+        color: #888;
+      }
+
+      .u {
+        display: flex;
+        justify-content: center;
+      }
+      .one {
+        background-color: #fff9f9;
+        margin: 24px;
+        text-align: center;
+        height: 152px;
+        width: 255px;
+        box-shadow: #d7d0d0;
+      }
+      .one p {
+        padding: 1px;
+        height: 17px;
+      }
+      .bone {
+        border-radius: 7px;
+        height: 31px;
+        width: 115px;
+        background-color: rgba(25, 135, 240, 0.92);
+        border-color: deepskyblue;
+      }
+      .btwo {
+        border-radius: 7px;
+        height: 31px;
+        width: 115px;
+        background-color: rgba(2, 198, 24, 50.95);
+        font-style: bold;
+        border-color: currentColor;
+      }
+
+      .bone a,
+      .btwo a {
+        color: white;
+        text-decoration: none;
+      }
+    
